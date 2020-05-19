@@ -1,0 +1,25 @@
+{
+  "name": "mini-alert",
+  "version": "1.0.0",
+  "description": "Just a small notification popup!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alert",
+    "notification",
+    "popup",
+    "mini"
+  ],
+  "author": "Francesco Orsi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orsifrancesco/mini-alert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orsifrancesco/mini-alert/issues"
+  },
+  "homepage": "https://github.com/orsifrancesco/mini-alert#readme"
+}
