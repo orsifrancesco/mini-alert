@@ -13,6 +13,7 @@ node_modules/
 .tmp/
 .memo.txt
 useful/
+.gitignore
 
 # OS or Editor folders
 .DS_Store
