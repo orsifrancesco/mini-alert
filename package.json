@@ -1,6 +1,6 @@
 {
   "name": "mini-alert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just a small notification popup!",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "mini"
   ],
   "author": "Francesco Orsi",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/orsifrancesco/mini-alert.git"

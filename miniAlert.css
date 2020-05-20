@@ -18,11 +18,11 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -250%) scale(0.1) rotate(-45deg);
+    transform: translate(-50%, -250%) scale(0.1);
     z-index: 99999;
     box-shadow: 10px 10px rgba(0,0,0, 0.2);
     border-radius: 5px;
-    transition: all 0.9s cubic-bezier(0.87, -0.41, 0.19, 1.44);
+    transition: 0.9s;
     padding: 10px 20px;
     opacity: 0;
     visibility: hidden;
@@ -30,6 +30,13 @@
     background-color: #333;
     color: white;
 	
+}
+
+.miniAlert.cartoon {
+
+    transform: translate(-50%, -250%) scale(0.1) rotate(-25deg);
+    transition: all 0.9s cubic-bezier(0.87, -0.41, 0.19, 1.44);
+
 }
 
 .miniAlert.show {
@@ -79,15 +86,15 @@
 
 .miniAlert--large.show {
 
-	transform: translate(-50%, -50%) scale(2);
+	transform: translate(-50%, -50%) scale(3);
 			
 }
 
-.miniAlert--large.show.show--1 { transform: translate(-50%, -50%) scale(2) rotate(4deg); }
-.miniAlert--large.show.show--2 { transform: translate(-50%, -50%) scale(2) rotate(3deg); }
-.miniAlert--large.show.show--3 { transform: translate(-50%, -50%) scale(2) rotate(2deg); }
-.miniAlert--large.show.show--4 { transform: translate(-50%, -50%) scale(2) rotate(1deg); }
-.miniAlert--large.show.show--5 { transform: translate(-50%, -50%) scale(2) rotate(1.5deg); }
-.miniAlert--large.show.show--6 { transform: translate(-50%, -50%) scale(2) rotate(2.5deg); }
-.miniAlert--large.show.show--7 { transform: translate(-50%, -50%) scale(2) rotate(3.5deg); }
-.miniAlert--large.show.show--8 { transform: translate(-50%, -50%) scale(2) rotate(4.5deg); }
+.miniAlert--large.show.show--1 { transform: translate(-50%, -50%) scale(3) rotate(4deg); }
+.miniAlert--large.show.show--2 { transform: translate(-50%, -50%) scale(3) rotate(3deg); }
+.miniAlert--large.show.show--3 { transform: translate(-50%, -50%) scale(3) rotate(2deg); }
+.miniAlert--large.show.show--4 { transform: translate(-50%, -50%) scale(3) rotate(1deg); }
+.miniAlert--large.show.show--5 { transform: translate(-50%, -50%) scale(3) rotate(1.5deg); }
+.miniAlert--large.show.show--6 { transform: translate(-50%, -50%) scale(3) rotate(2.5deg); }
+.miniAlert--large.show.show--7 { transform: translate(-50%, -50%) scale(3) rotate(3.5deg); }
+.miniAlert--large.show.show--8 { transform: translate(-50%, -50%) scale(3) rotate(4.5deg); }
