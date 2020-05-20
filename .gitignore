@@ -12,6 +12,7 @@
 node_modules/
 .tmp/
 .memo.txt
+useful/
 
 # OS or Editor folders
 .DS_Store

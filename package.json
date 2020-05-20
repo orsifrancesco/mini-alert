@@ -1,6 +1,6 @@
 {
   "name": "mini-alert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just a small notification popup!",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,9 @@
     "alert",
     "notification",
     "popup",
-    "mini"
+    "mini",
+    "push",
+    "react"
   ],
   "author": "Francesco Orsi",
   "license": "MIT",
