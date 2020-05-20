@@ -12,7 +12,7 @@ $ npm install mini-alert
 
 ## Examples
 
-```js
+```jsx
 
   import miniAlert from 'mini-alert';
   import 'mini-alert/miniAlert.css';
