@@ -1,5 +1,7 @@
 # mini-alert
 
+[![NPM version](https://img.shields.io/npm/v/mini-alert.svg?style=flat)](https://www.npmjs.com/package/mini-alert)
+
 Just a small javascript notification popup for ES6 and/or React.
 
 ![miniAlert](https://user-images.githubusercontent.com/6490641/82397164-b21fb780-9a47-11ea-95d1-070022ac1f40.gif "mini-alert")

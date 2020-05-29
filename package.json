@@ -1,6 +1,6 @@
 {
   "name": "mini-alert",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Just a small javascript notification popup for ES6 and/or React.",
   "main": "index.js",
   "scripts": {
