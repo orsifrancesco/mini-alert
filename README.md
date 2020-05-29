@@ -16,6 +16,7 @@ $ npm install mini-alert
 
   import miniAlert from 'mini-alert';
   import 'mini-alert/miniAlert.css';
+  // import 'mini-alert/miniAlert.scss'; // <!-- SCSS file (optional)
 
   miniAlert({
     text: "Simple text!!"

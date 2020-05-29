@@ -1,0 +1,100 @@
+.miniAlert {
+
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%) scale(0.1);
+    z-index: 99999;
+    box-shadow: 10px 10px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+    transition: 0.9s;
+    padding: 10px 20px;
+    opacity: 0;
+    visibility: hidden;
+    font-weight: 300;
+    background-color: #333;
+    color: white;
+
+    &Bg {
+
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: transparent;
+        z-index: 99998;
+    
+    }
+
+    &.cartoon {
+
+        transform: translate(-50%, -250%) scale(0.1) rotate(-25deg);
+        transition: all 0.9s cubic-bezier(0.87, -0.41, 0.19, 1.44);
+    
+    }
+
+    .show {
+
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s;
+        transform: translate(-50%, -50%) scale(1);
+
+        &--1 { transform: translate(-50%, -100%) scale(1) rotate(4deg); }
+        &--2 { transform: translate(-50%, -90%) scale(1) rotate(-4deg); }
+        &--3 { transform: translate(-50%, -80%) scale(1) rotate(2deg); }
+        &--4 { transform: translate(-50%, -70%) scale(1) rotate(-2deg); }
+        &--5 { transform: translate(-50%, -60%) scale(1) rotate(-6deg); }
+        &--6 { transform: translate(-50%, -50%) scale(1) rotate(6deg); }
+        &--7 { transform: translate(-50%, -40%) scale(1) rotate(8deg); }
+        &--8 { transform: translate(-50%, -30%) scale(1) rotate(-8deg); }
+            
+    }
+
+    &--medium {
+
+        max-width: 50%;
+
+        &.show {
+
+            transform: translate(-50%, -50%) scale(1.5);
+
+            &--1 { transform: translate(-50%, -50%) scale(1.5) rotate(4deg); }
+            &--2 { transform: translate(-50%, -50%) scale(1.5) rotate(3deg); }
+            &--3 { transform: translate(-50%, -50%) scale(1.5) rotate(2deg); }
+            &--4 { transform: translate(-50%, -50%) scale(1.5) rotate(1deg); }
+            &--5 { transform: translate(-50%, -50%) scale(1.5) rotate(1.5deg); }
+            &--6 { transform: translate(-50%, -50%) scale(1.5) rotate(2.5deg); }
+            &--7 { transform: translate(-50%, -50%) scale(1.5) rotate(3.5deg); }
+            &--8 { transform: translate(-50%, -50%) scale(1.5) rotate(4.5deg); }
+                    
+        }
+        
+    }
+
+    &--large {
+
+        max-width: 90%;
+
+        &.show {
+
+            transform: translate(-50%, -50%) scale(3);
+
+            &--1 { transform: translate(-50%, -50%) scale(3) rotate(4deg); }
+            &--2 { transform: translate(-50%, -50%) scale(3) rotate(3deg); }
+            &--3 { transform: translate(-50%, -50%) scale(3) rotate(2deg); }
+            &--4 { transform: translate(-50%, -50%) scale(3) rotate(1deg); }
+            &--5 { transform: translate(-50%, -50%) scale(3) rotate(1.5deg); }
+            &--6 { transform: translate(-50%, -50%) scale(3) rotate(2.5deg); }
+            &--7 { transform: translate(-50%, -50%) scale(3) rotate(3.5deg); }
+            &--8 { transform: translate(-50%, -50%) scale(3) rotate(4.5deg); }
+                    
+        }
+        
+    }
+	
+}

@@ -1,7 +1,7 @@
 {
   "name": "mini-alert",
-  "version": "1.0.5",
-  "description": "Just a small notification popup!",
+  "version": "1.0.6",
+  "description": "Just a small javascript notification popup for ES6 and/or React.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
